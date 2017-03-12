@@ -33,6 +33,7 @@ export interface IScheduleDetails {
     status: string;
     dateCreated: Date;
     dateUpdated: Date;
+    creator: string;
     creatorId: number;
     attendees: IUser[];
     statuses: string[];
